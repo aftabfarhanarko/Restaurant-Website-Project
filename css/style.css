@@ -134,13 +134,14 @@ a{
     height: 375px;
     width: 350px;
     border: 0.1px solid #bab6b6;
-    transition: 0.50s;
+    transition: 0.7s;
     border-radius: 5px;
 }
 .card:hover{
-    box-shadow:  5px 2px 15px 1px rgb(76, 74, 74);
+    box-shadow:  5px 2px 20px 1px rgb(76, 74, 74);
     border: none;
     border-radius: 10px;
+     transition: 0.7s;
 }
 .card-img{
     height: 200px;
@@ -222,11 +223,18 @@ h4:hover{
     color: #000;
 }
 .img-explore{
-    padding-top: 40px;
+    padding-top: 80px;
     float: right;
     width: 40%;
+    margin-right: 50px;
+  
 }
 .img6{
-    height: 600px;
+    height: 500px;
     width: 700px;
+    transition: 0.70s;
+}
+.img6:hover{
+    box-shadow: 7px 9px 25px 8px rgb(180, 176, 176);
+    border-radius: 10px;   
 }
