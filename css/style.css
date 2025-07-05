@@ -129,7 +129,7 @@ a{
 }
 .card{
     background-color: rgb(248, 242, 235);
-    margin: 60px;
+    margin: 40px;
     padding: 20px;
     height: 375px;
     width: 350px;
@@ -173,4 +173,60 @@ h4:hover{
 .btn2:hover{
     background-color: #aaa59b;
     color:  black;
+}
+
+/* About Section */
+
+#about{
+    height: 100%;
+    width: 100%;
+    background-color: #FAEDD9;
+}
+.exolore{
+    padding: 120px;
+    float: left;
+    width: 40%;
+}
+.h1tag{
+    font-size: 37px;
+}
+.Feedback{
+    height: 60px;
+    width: 160px;
+    margin-top: 100px;
+    border: none;
+    font-size: 20px;
+    background-color:#ec924d ;
+    color: whitesmoke;
+    border-radius: 5px;
+    transition: 0.50s;
+}
+.Feedback:hover{
+    background-color:#d6bfa8 ;
+    color: #000;
+}
+.Satisfied{
+    height: 60px;
+    width: 160px;
+    margin-top: 100px;
+    margin-left: 90px;
+    border: none;
+    font-size: 20px;
+    background-color:#ec924d ;
+    color: rgb(250, 251, 253);
+    border-radius: 5px;
+    transition: 0.50s;
+}
+.Satisfied:hover{
+    background-color:#d6bfa8 ;
+    color: #000;
+}
+.img-explore{
+    padding-top: 40px;
+    float: right;
+    width: 40%;
+}
+.img6{
+    height: 600px;
+    width: 700px;
 }
