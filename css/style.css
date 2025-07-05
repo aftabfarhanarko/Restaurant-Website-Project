@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #FAEDD9;
+}
+#heard{
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+}
+#had{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.foot{
+    font-weight: bolder;
+    font-size: 29px;
+}
+.man , ul{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+.man ul li{
+    cursor: pointer;
+    font-size: 22px;
+    color: #000;
+    transition: 0.3s;
+}
+.man ul li:hover{
+    color: darkblue;
+}
+a{
+    text-decoration: none;
+}
+#hero{
+    background-image: url('../imgs/top-view-eid-al-fitr-celebration-with-delicious-food.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+}
+.midel{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.her{
+    font-size: 30px;
+    color: rgb(17, 17, 17);
+    background-color: #F9EED9;
+    font-weight: 100;
+    border-radius: 20px;
+    height: 35px;
+    width: 500px;
+    text-align: center;
+}
+.her:hover{
+    background-color:#f9a361 ;
+    color: whitesmoke;
+    transition: 0.50s;
+}
+.btn1{
+    cursor: pointer;
+    text-decoration: none;
+    height: 40px;
+    width: 110px;
+    border-radius: 25px;
+    background-color: #ec924d;
+    font-size: 18px;
+    color: whitesmoke;
+    transition: 0.4s;
+}
+.btn1:hover{
+     background-color: #f1c166;
+     color: #000;
+}
