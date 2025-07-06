@@ -246,11 +246,9 @@ h4:hover{
 
 /* Contacet Section */
 #contact{
-    height: 100%;
+    height: 50%;
     width: 100%;
-    background-image: url('../imgs/top-view-eid-al-fitr-celebration-with-delicious-food.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color:#f7f2eb;
 }
 .Contact{
     height: 100vh;
@@ -259,7 +257,65 @@ h4:hover{
     justify-content: center;
 }
 .block{
-    height: 330px;
+    height: 420px;
     width: 490px;
-    border: 2px solid red;
+    border: 0.50px solid #f3d9b2;
+    background-color:#FAEDD9;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: 0.50s;
+}
+.block:hover{
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px 2px rgb(187, 186, 186);
+}
+.label1{
+    margin-top: 30px;
+    height: 35px;
+    width: 340px;
+    border-radius: 2px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border: 1px solid #EC924D;
+    transition: 0.80s;
+    background-color: #eba671;
+    color: whitesmoke;
+}
+.label1:hover{
+    background-color: white;
+    color: #000;
+}
+.section3{
+    margin-top: 30px;
+    height: 35px;
+    width: 340px;
+    border: none;
+    outline: none;
+    background-color: #EBA671;
+    color: whitesmoke;
+    font-size: 18px;
+}
+.submit{
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;   
+    font-size: 19px;
+    border-radius: 5px;
+    background-color:#C9661B;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    transition: 0.40s;
+}
+.submit:hover{
+    border-radius: 0;
+}
+
+/* footer */
+footer{
+    background-color: #CDCAC4;
+    height: 10%;
+    width: 100%;
 }
