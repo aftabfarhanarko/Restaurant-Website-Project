@@ -105,11 +105,11 @@ a{
 /* Menu Section */
 
 #menu{
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 .odar{
-    padding-top: 110px;
+    padding-top: 40px;
     text-align: center;
     font-size: 27px;
     font-weight: 100;
@@ -183,6 +183,11 @@ h4:hover{
     width: 100%;
     background-color: #FAEDD9;
 }
+#about::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 .exolore{
     padding: 120px;
     float: left;
@@ -237,4 +242,24 @@ h4:hover{
 .img6:hover{
     box-shadow: 7px 9px 25px 8px rgb(180, 176, 176);
     border-radius: 10px;   
+}
+
+/* Contacet Section */
+#contact{
+    height: 100%;
+    width: 100%;
+    background-image: url('../imgs/top-view-eid-al-fitr-celebration-with-delicious-food.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Contact{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block{
+    height: 330px;
+    width: 490px;
+    border: 2px solid red;
 }
