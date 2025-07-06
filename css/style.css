@@ -107,6 +107,7 @@ a{
 #menu{
     height: 100%;
     width: 100%;
+    background-color: #F7F2EB;
 }
 .odar{
     padding-top: 40px;
@@ -238,10 +239,11 @@ h4:hover{
     height: 500px;
     width: 700px;
     transition: 0.70s;
+    border-radius: 10px;
 }
 .img6:hover{
     box-shadow: 7px 9px 25px 8px rgb(180, 176, 176);
-    border-radius: 10px;   
+    border-radius: 18px;   
 }
 
 /* Contacet Section */
@@ -257,8 +259,8 @@ h4:hover{
     justify-content: center;
 }
 .block{
-    height: 420px;
-    width: 490px;
+    height: 570px;
+    width: 590px;
     border: 0.50px solid #f3d9b2;
     background-color:#FAEDD9;
     text-align: center;
@@ -273,7 +275,7 @@ h4:hover{
 .label1{
     margin-top: 30px;
     height: 35px;
-    width: 340px;
+    width: 440px;
     border-radius: 2px;
     font-size: 17px;
     border: none;
@@ -290,7 +292,7 @@ h4:hover{
 .section3{
     margin-top: 30px;
     height: 35px;
-    width: 340px;
+    width: 440px;
     border: none;
     outline: none;
     background-color: #EBA671;
@@ -315,7 +317,22 @@ h4:hover{
 
 /* footer */
 footer{
-    background-color: #CDCAC4;
+    background-color:#FFFFFF;
     height: 10%;
     width: 100%;
+}
+
+.img-section{
+    text-align: center;
+    align-items: center;
+}
+.imgsec{
+    height: 50px;
+    width: 180px;
+}
+
+.dhaka{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 16px;
 }
